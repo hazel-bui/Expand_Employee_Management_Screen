@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".EmployeeManagementActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Image at the top -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_woman" />
+
+        <!-- Dòng 1 -->
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="👤 Họ tên: Lily Dondunski"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/imageView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 2 -->
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="🆔 Mã nhân viên: NV001"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 3 -->
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="💼 Chức vụ: Trưởng phòng"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 4 -->
+        <TextView
+            android:id="@+id/line4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="🏢 Phòng ban: Nhân sự"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 5 -->
+        <TextView
+            android:id="@+id/line5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="📧 Email: nguyenvana@example.com"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 6 -->
+        <TextView
+            android:id="@+id/line6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="📞 Số điện thoại: 0901234567"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 7 -->
+        <TextView
+            android:id="@+id/line7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="🏠 Địa chỉ: 123 Đường ABC, Q1, TP.HCM"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 8 -->
+        <TextView
+            android:id="@+id/line8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="📅 Ngày vào làm: 01/01/2023"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 9 -->
+        <TextView
+            android:id="@+id/line9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="💰 Lương: 20,000,000 VND"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 10 -->
+        <TextView
+            android:id="@+id/line10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="📈 Trạng thái: Đang làm việc"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 11 -->
+        <TextView
+            android:id="@+id/line11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="⭐ Thành tích: Nhân viên xuất sắc 2023"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 12 -->
+        <TextView
+            android:id="@+id/line12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="🎓 Trình độ học vấn: Thạc sĩ Quản trị nhân lực"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 13 -->
+        <TextView
+            android:id="@+id/line13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="🌐 Kỹ năng: Giao tiếp, quản lý nhóm, HRM"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Dòng 14 -->
+        <TextView
+            android:id="@+id/line14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="✏️ Ghi chú: Đang theo học khóa đào tạo lãnh đạo"
+            android:textSize="18sp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@id/line13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
